@@ -155,7 +155,7 @@ function mat3Scale(scaleSize) {
 
 function drawBeatShape(context) {
     var locMatrix = mat4();
-    locMatrix = mult(locMatrix, translation(-.5, -.2, -68.06));
+    locMatrix = mult(locMatrix, translation(-.5, -.2, -68.46));
     console.log(-68.06);
     //If staring 60 seconds in...
     //locMatrix = mult(locMatrix, translation(-.5, -.2, -2.16));

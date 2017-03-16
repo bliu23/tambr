@@ -176,7 +176,7 @@ Declare_Any_Class("Music_Scene",  // An example of a displayable object that our
       /******************************/
       /*  Equalizer (both parts)    */
       /******************************/
-      for (var i = 0; i < 360 * 2; i += 5) {
+      for (var i = 0; i < 360 * 2; i += 6) {
         if (i < 360) {
           model_transform = mat4();
           model_transform = mult(model_transform, translation(0, 0, -cameraShift));
